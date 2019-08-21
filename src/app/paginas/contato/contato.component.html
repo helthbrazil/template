@@ -1,0 +1,74 @@
+<div class="wrapper">
+  <!-- Hero-->
+  <section class="secao-contato module-cover parallax text-center
+      fullscreen" data-background="assets/images/main/banner_contato.jpg" data-overlay="0.6"
+    data-jarallax-original-styles="height: 300px !important; background-image: url(assets/images/main/banner_contato.jpg);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="m-b-20"><strong>Fale Conosco<br></strong></h1>
+          <p>Será um prazer conversa com você.</p>
+        </div>
+      </div>
+    </div>
+    <div class="overlay-background" style="opacity: 0.6;"></div>
+    <div id="jarallax-container-0"
+      style="position: absolute; top: 0px; left: 0px; width: 100vh; height: 100vh; overflow: hidden; pointer-events: none; z-index: -100;">
+      <div
+        style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(assets/images/main/banner_contato.jpg); position: fixed; top: 0px; left: 0px; width: 1903px; height: 682.2px; overflow: hidden; pointer-events: none; margin-top: 127.4px; transform: translate3d(0px, -156.2px, 0px);">
+      </div>
+    </div>
+  </section>
+
+  <!-- Form-->
+  <section class="module">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <form id="contact-form" method="post" novalidate="">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="name" placeholder="Nome" required="">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="form-control" type="email" name="email" placeholder="E-mail" required="">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="subject" placeholder="Titulo" required="">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <textarea class="form-control" name="message" placeholder="Menssagem" rows="12"
+                    required=""></textarea>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <p></p>
+                <div class="text-center">
+                  <input class="btn btn-circle btn-brand" type="submit" value="Enviar Mensagem">
+                </div>
+              </div>
+            </div>
+          </form>
+          <!-- Ajax response-->
+          <div class="ajax-response text-center" id="contact-response"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Form end-->
+
+  <!-- Footer-->
+  <app-footer></app-footer>
+
+</div>

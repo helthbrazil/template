@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
-import { SitiosComponent } from './components/sitios/sitios.component';
-import { BuscaAvancadaComponent } from './components/busca-avancada/busca-avancada.component';
-import { AnuncieAquiComponent } from './components/anuncie-aqui/anuncie-aqui.component';
-import { ContatoComponent } from './components/contato/contato.component';
-import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './paginas/home/home.component';
+import { SitiosComponent } from './paginas/sitios/sitios.component';
+import { BuscaAvancadaComponent } from './paginas/busca-avancada/busca-avancada.component';
+import { AnuncieAquiComponent } from './paginas/anuncie-aqui/anuncie-aqui.component';
+import { ContatoComponent } from './paginas/contato/contato.component';
+import { LoginComponent } from './paginas/login/login.component';
 
 const routes: Routes = [{
   pathMatch: 'full',
